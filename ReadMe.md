@@ -18,13 +18,13 @@ Color as well as a big source of sign of feedback for players brain. Approximate
 
 When it comes to game development, keeping colors consistent and organised can be hard. It can deeply effect competitiveness of gameplay or artistic look and feel. Also keeping game accessible can be a challenge and this is where "Game Colors" come in.
 
-Solutions as color full screen color shifts and color contrast can deeply impact artistic feel of the game. This also by design integrated in Unreal. However "Game Colors"
+Solutions as color full screen color shifts and color contrast can deeply impact artistic feel of the game. Material based rendering color shifts also by design integrated in Unreal. However "Game Colors"
 uses a different approach on that with profiles creating ability to change only certain colors for player, rather than all game, thus it becomes more efficient and easy to maintain by design.
 
-This plugin is an engine subsystem with some configs where player can choose profiles defined by artists and designers or if given option can define their colors if plugged into options.
+This plugin is an engine subsystem with some configs where player can choose profiles defined by artists and designers, also if given option players can define their choices of profile if plugged into options.
 Unlimited profiles can be added if necessary in to tables however there is four profiles already integrated as Default Profile, Deutan, Protan, Tritan, Custom.
 
-As design pillar colors are defined in three major pillar as Beneficial, Natural, Non Beneficial. In many games and applications we do use these colors however in some games there could be dynamic colors, global colors depending on the gameplay context.
+As design pillar colors are defined in three major pillar as Beneficial (Good For Player), Natural, Non Beneficial (Bad For Player). In many games and applications we do use these colors, it is a way of lowering cognitive load for player. On the other hand,~~~~ in some games there could be dynamic colors, global colors depending on the gameplay context.
 When a color is defined in profile, it unlocks designer to define what color should be in different context such as tritan color blindness. Can be same or changed due to gameplay context.
 
 Colors can be dynamically changed in system in runtime however some parts of the game could require reloading or hot reload if not created using this mindset or logic. Still there is an event integrated into subsystem that fires on color change events.
