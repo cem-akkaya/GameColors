@@ -1,0 +1,23 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GameColors",
+	"Description": "Lightweight color management system, supporting dynamic color changes and color profiles for extended player experience and accessibility.",
+	"Category": "Gameplay",
+	"CreatedBy": "Cem Akkaya",
+	"CreatedByURL": "https://www.cemakkaya.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GameColors",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
