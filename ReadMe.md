@@ -1,12 +1,12 @@
 ﻿# Game Colors Plugin
 
 [![Plugin version number](https://img.shields.io/github/v/release/cem-akkaya/GameColors?label=Version)](https://github.com/cem-akkaya/GameColors/releases/latest)
-[![Unreal Engine Supported Versions](https://img.shields.io/badge/Unreal_Engine-5.5-9455CE?logo=unrealengine)](https://github.com/cem-akkaya/LightAwareness/releases)
-[![License](https://img.shields.io/github/license/cem-akkaya/LightAwareness)](LICENSE)
-![Download count](https://img.shields.io/github/downloads/cem-akkaya/LightAwareness/total)
+[![Unreal Engine Supported Versions](https://img.shields.io/badge/Unreal_Engine-5.5-9455CE?logo=unrealengine)](https://github.com/cem-akkaya/GameColors/releases)
+[![License](https://img.shields.io/github/license/cem-akkaya/GameColors)](LICENSE)
+![Download count](https://img.shields.io/github/downloads/cem-akkaya/GameColors/total)
 [![Actively Maintained](https://img.shields.io/badge/Maintenance%20Level-Actively%20Maintained-green.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
 
-<img src="https://cemakkaya.com/ImageHost/splashcolors.jpg" alt="plugin-light-awareness" width="100%"/>
+<img src="https://cemakkaya.com/ImageHost/splashcolors.jpg" alt="plugin-game-colors" width="100%"/>
 
 
 ## Overview
@@ -55,7 +55,7 @@ If you want to contribute, feel free to create a pull request.
 - EX: Enemy is blue, you hit enemy; enemy becomes red. On Color Change-> Set Dynamic Color: Color Non Beneficial.
 
 ## Installation
-<img src="https://cemakkaya.com/ImageHost/colorshowto1.jpg" alt="plugin-light-awareness" width="830"/>
+<img src="https://cemakkaya.com/ImageHost/colorshowto1.jpg" alt="plugin-game-colors" width="830"/>
 
 Install it like any other Unreal Engine plugin.
 - Download and place GameColors Plugin under  : Drive:\YOURPROJECTFOLDER\Plugins\GameColors
@@ -64,18 +64,18 @@ Install it like any other Unreal Engine plugin.
 - Project Settings->Plugins->GameColor to change global settings.
 - Define your color profile colors for your game in the defined data table or a new table.
 
-<img src="https://cemakkaya.com/ImageHost/colorshowto4.jpg" alt="plugin-light-awareness" width="830"/>
+<img src="https://cemakkaya.com/ImageHost/colorshowto4.jpg" alt="plugin-game-colors" width="830"/>
 
 
 ## How to use it
-<img src="https://cemakkaya.com/ImageHost/colorshowto2.jpg" alt="inspector-light-awareness" width="830"/>
+<img src="https://cemakkaya.com/ImageHost/colorshowto2.jpg" alt="plugin-game-colors" width="830"/>
 
 - On your blueprint and right click search for subsystem "Game Colors"
 - Drag a pin from the subsystem and search for GameColors.
 - Get AllGameColors pin and break pin.
 - Get any color of your need and bind to your structure.
 
-<img src="https://cemakkaya.com/ImageHost/colorshowto3.jpg" alt="inspector-light-awareness" width="830"/>
+<img src="https://cemakkaya.com/ImageHost/colorshowto3.jpg" alt="plugin-game-colors" width="830"/>
 
 - Drag a ping from the subsystem and assign event color change to define dynamic changes in your logic.
 
