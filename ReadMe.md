@@ -3,7 +3,7 @@
 [![Plugin version number](https://img.shields.io/github/v/release/cem-akkaya/GameColors?label=Version)](https://github.com/cem-akkaya/GameColors/releases/latest)
 [![Unreal Engine Supported Versions](https://img.shields.io/badge/Unreal_Engine-5.5-9455CE?logo=unrealengine)](https://github.com/cem-akkaya/GameColors/releases)
 [![License](https://img.shields.io/github/license/cem-akkaya/GameColors)](LICENSE)
-![Download count](https://img.shields.io/github/downloads/cem-akkaya/GameColors/total)
+[![Download count](https://img.shields.io/github/downloads/cem-akkaya/GameColors/all)](https://github.com/cem-akkaya/GameColors/releases/latest)
 [![Actively Maintained](https://img.shields.io/badge/Maintenance%20Level-Actively%20Maintained-green.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
 
 <img src="https://cemakkaya.com/ImageHost/splashcolors.jpg" alt="plugin-game-colors" width="100%"/>
@@ -18,7 +18,7 @@ Color as well as a big source of sign of feedback for players brain. Approximate
 
 When it comes to game development, keeping colors consistent and organised can be hard. It can deeply effect competitiveness of gameplay or artistic look and feel. Also keeping game accessible can be a challenge and this is where "Game Colors" come in.
 
-Solutions as color full screen color shifts and color contrast can deeply impact artistic feel of the game. Material based rendering color shifts also by design integrated in Unreal. However "Game Colors"
+Solutions as color full screen color shifts and color contrast can deeply impact artistic feel of th~~~~e game. Material based rendering color shifts also by design integrated in Unreal. However "Game Colors"
 uses a different approach on that with profiles creating ability to change only certain colors for player, rather than all game, thus it becomes more efficient and easy to maintain by design.
 
 This plugin is an engine subsystem with some configs where player can choose profiles defined by artists and designers, also if given option players can define their choices of profile if plugged into options.
